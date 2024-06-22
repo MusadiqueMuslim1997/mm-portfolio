@@ -113,7 +113,6 @@ nav>.ul>ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     /* background-color: bisque; */
 }
 
@@ -269,7 +268,6 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .contact-header {
