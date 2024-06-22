@@ -20,8 +20,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .logo {
@@ -193,7 +192,6 @@ nav>.ul>ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 
@@ -217,6 +215,8 @@ nav>.ul>ul>li>a {
     flex-wrap: wrap;
     gap: 15px;
     background-image: linear-gradient(black 50%, goldenrod);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .card-img {
@@ -375,7 +375,7 @@ footer {
     .ul {
         top: 80px;
         width: 100%;
-        background-color: rgb(54, 51, 51);
+        background-color: rgb(24, 22, 22);
         position: fixed;
         padding: 20px 10px;
         height: 100vh;
