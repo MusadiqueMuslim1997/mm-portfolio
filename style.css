@@ -20,6 +20,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 
@@ -112,6 +113,7 @@ nav>.ul>ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 40px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     /* background-color: bisque; */
 }
 
@@ -191,6 +193,7 @@ nav>.ul>ul>li>a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
 }
 
@@ -266,6 +269,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .contact-header {
