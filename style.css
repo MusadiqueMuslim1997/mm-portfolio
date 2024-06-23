@@ -413,6 +413,8 @@ footer {
         height: 100vh;
         right: -100%;
         transition: 0.5s;
+      
+       
 
     }
 
@@ -490,9 +492,9 @@ footer {
     .exit {
         margin-right: 30px;
     }
-
+    
     .ul ul li a {
-        font-size: 0.8rem;
+    
         margin-top: 20px;
     }
 
@@ -528,19 +530,19 @@ footer {
 @media(max-width:500px) {
     .logo {
         padding-left: 20px;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .check {
         margin-right: 20px;
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
         border-radius: 50%;
     }
     .exit{
         margin-right: 20px;
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
         border-radius: 50%;
     }
 
@@ -556,6 +558,12 @@ footer {
 
     .contact-card {
         justify-content: space-around;
+    }
+    .contact-icn{
+        font-size: 2rem;
+    }
+    .contact-title{
+        font-size: 1rem;
     }
 
 
