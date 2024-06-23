@@ -14,7 +14,7 @@ contact.addEventListener('click', myHome)
 
 function activeHome() {
    home.style.backgroundColor = 'goldenrod';
-   home.style.transition = '0.2s';
+   home.style.transition = '0.1s';
    project.style.backgroundColor = 'none';
    contact.style.backgroundColor = 'none'
 
@@ -23,7 +23,7 @@ function activeHome() {
 window.onload = activeHome()
 function activeProject() {
    project.style.backgroundColor = 'goldenrod'
-   project.style.transition = '0.2s';
+   project.style.transition = '0.1s';
    home.style.backgroundColor = 'transparent';
    contact.style.backgroundColor = 'transparent'
 
@@ -33,7 +33,7 @@ project.addEventListener('click', activeProject)
 
 function activeContact() {
    contact.style.backgroundColor = 'goldenrod'
-   contact.style.transition = '0.2s';
+   contact.style.transition = '0.1s';
    home.style.backgroundColor = 'transparent';
    project.style.backgroundColor = 'transparent'
 
